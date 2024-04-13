@@ -9,7 +9,7 @@
     "svg",
     "optimize",
     "minify",
-	"autocrop"
+    "autocrop"
   ],
   "author": {
     "name": "Glennos",
@@ -27,10 +27,10 @@
   },
   "license": "MIT",
   "dependencies": {
+    "jimp": "^0.22.12",
     "puppeteer": "*",
-    "jimp": "^0.16.1",
-    "svgo": "^2.8.0",
-    "svg-pathdata": "^6.0.3"
+    "svg-pathdata": "^6.0.3",
+    "svgo": "^2.8.0"
   },
   "devDependencies": {
     "jest": "^27.2.5"
