@@ -4,6 +4,7 @@
   "description": "SVGO plugin that reduces viewBox to minimum possible size so no wasted transparent space around svg",
   "main": "index.js",
   "bin": "./bin/svgo",
+  "types": "types/index.d.ts",
   "files": [ "./*.js", "lib", "types" ],
   "keywords": [
     "svgo",
