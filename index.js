@@ -20,6 +20,11 @@ exports.description = 'reduce viewBox to minimum possible size so no wasted tran
  * </svg>
  *
  * @author Glennos
+ * 
+ * @param {import('svgo/lib/types').XastRoot} ast 
+ * @param {Record<string, unknown>} params 
+ * @param {Record<string, unknown>} info 
+ * @returns {null}
  */
 exports.fn = (ast, params, info) => {
 	AutocropUtils.plugin(ast, params, info);
