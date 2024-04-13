@@ -30,7 +30,7 @@
     "jimp": "^0.22.12",
     "puppeteer": "*",
     "svg-pathdata": "^6.0.3",
-    "svgo": "^2.8.0"
+    "svgo": "^3.2.0"
   },
   "devDependencies": {
     "jest": "^27.2.5"
